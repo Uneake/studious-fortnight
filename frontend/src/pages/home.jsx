@@ -5,9 +5,9 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Home() {
   const options = [
-    { value: 'คณะหมูกรอบ', label: 'คณะหมูกรอบ' },
-    { value: 'option2', label: 'Option 2' },
-    { value: 'option3', label: 'Option 3' },
+    { value: "คณะหมูกรอบ", label: 'คณะหมูกรอบ' },
+    { value: "option2", label: 'Option 2' },
+    { value: "option3", label: 'Option 3' },
   ];
   const [userChoice, setUserChoice] = useState("");
   const [budget, setBudget] = useState("");
@@ -51,12 +51,10 @@ export default function Home() {
             >
             </input>
         </div >
-            <a href="/results" >
               <button 
               className="w-64 h-10 rounded-lg bg-green-400 px-9 py-1 flex justify-center my-4 shadow-lg"
               onClick={handleGo}
               >Go</button>
-            </a>
         </div>
       </div>
     </>
